@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/koj-co/prettierrc#readme",
   "devDependencies": {
+    "@types/prettier": "^2.1.1",
     "typescript": "^4.0.2"
   }
 }
