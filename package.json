@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/koj-co/prettierrc/issues"
   },
-  "homepage": "https://github.com/koj-co/prettierrc#readme"
+  "homepage": "https://github.com/koj-co/prettierrc#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
 }
