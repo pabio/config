@@ -15,6 +15,6 @@
     "outDir": "./dist",
     "typeRoots": ["node_modules/@types", "@types"]
   },
-  "include": ["prettier.config.ts"],
+  "include": ["config/*", "index.ts"],
   "exclude": ["node_modules"]
 }
