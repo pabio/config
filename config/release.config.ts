@@ -18,13 +18,20 @@ const options: Options = {
       {
         releaseRules: {
           major: {
-            include: [":bento:", ":recycle:"],
+            include: [":boom:"],
           },
           minor: {
-            include: [":bento:", ":recycle:"],
+            include: [":sparkles:"],
           },
           patch: {
-            include: [":bug:", ":ambulance:", ":lock:"],
+            include: [
+              ":bug:",
+              ":ambulance:",
+              ":lock:",
+              ":recycle:",
+              ":lipstick:",
+              ":alien:",
+            ],
           },
         },
         releaseNotes: {
@@ -46,7 +53,7 @@ const options: Options = {
     "@semantic-release/npm",
     [
       "@semantic-release/git",
-      { message: ":bookmark: v${nextRelease.version} [skip ci]" },
+      { message: ":bookmark: Release v${nextRelease.version} [skip ci]" },
     ],
   ],
 };
