@@ -65,3 +65,5 @@ export const production: Options = {
   ...options,
   branches: ["production"],
 };
+export const release = (branches: string | string[]) =>
+  ({ ...options, branches } as Options);
