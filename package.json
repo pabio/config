@@ -1,5 +1,5 @@
 {
-  "name": "@koj-co/prettierrc",
+  "name": "@koj/config",
   "version": "0.0.0",
   "description": "Configuration for Prettier",
   "files": [
