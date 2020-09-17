@@ -1,3 +1,4 @@
+import release from "./config/release.config";
 import prettier from "./config/prettier.config";
 
-export { prettier };
+export { prettier, release };
