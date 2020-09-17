@@ -1,4 +1,5 @@
 import { Options } from "semantic-release";
+import { readFileSync } from "fs";
 
 const options: Options = {
   branches: ["production"],
@@ -7,8 +8,28 @@ const options: Options = {
       "semantic-release-gitmoji",
       {
         releaseRules: {
-          patch: {
+          major: {
             include: [":bento:", ":recycle:"],
+          },
+          minor: {
+            include: [":bento:", ":recycle:"],
+          },
+          patch: {
+            include: [":bug:", ":ambulance:", ":lock:"],
+          },
+        },
+        releaseNotes: {
+          template,
+          partials: { commitTemplate },
+          helpers: {
+            datetime: function (format = "UTC:yyyy-mm-dd") {
+              return dateFormat(new Date(), format);
+            },
+          },
+          issueResolution: {
+            template: "{baseUrl}/{owner}/{repo}/issues/{ref}",
+            baseUrl: "https://github.com",
+            source: "github.com",
           },
         },
       },
