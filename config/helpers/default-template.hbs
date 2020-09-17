@@ -7,50 +7,43 @@
 {{#with commits}}
 {{#if sparkles}}
 ## ✨ New features
-{{#each sparkles}}
-- {{> commitTemplate}}
+{{#each sparkles}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if recycle}}
 ## ♻️ Updates
-{{#each recycle}}
-- {{> commitTemplate}}
+{{#each recycle}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if lipstick}}
 ## 💄 Interface changes
-{{#each lipstick}}
-- {{> commitTemplate}}
+{{#each lipstick}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if bug}}
 ## 🐛 Bug fixes
-{{#each bug}}
-- {{> commitTemplate}}
+{{#each bug}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if ambulance}}
 ## 🚑 Critical hotfixes
-{{#each ambulance}}
-- {{> commitTemplate}}
+{{#each ambulance}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if lock}}
 ## 🔒 Security issues
-{{#each lock}}
-- {{> commitTemplate}}
+{{#each lock}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 
 {{#if boom}}
 ## 💥 Breaking changes
-{{#each boom}}
-- {{> commitTemplate}}
+{{#each boom}}- {{> commitTemplate}}
 {{/each}}
 {{/if}}
 {{/with}}
