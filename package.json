@@ -5,8 +5,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/prettier.config.d.ts",
-  "main": "dist/prettier.config.js",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run copy-helpers",
     "copy-helpers": "mkdir -p dist/config/helpers && cp -r config/helpers dist/config",
