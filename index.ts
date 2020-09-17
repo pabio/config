@@ -1,4 +1,7 @@
-import release from "./config/release.config";
+import { master, production } from "./config/release.config";
 import prettier from "./config/prettier.config";
 
-export { prettier, release };
+const releaseMaster = master;
+const releaseProduction = production;
+
+export { prettier, releaseMaster, releaseProduction };

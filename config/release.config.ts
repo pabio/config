@@ -11,7 +11,6 @@ const commitTemplate = readFileSync(
 ).toString();
 
 const options: Options = {
-  branches: ["production"],
   plugins: [
     [
       "semantic-release-gitmoji",
@@ -58,4 +57,11 @@ const options: Options = {
   ],
 };
 
-export default options;
+export const master: Options = {
+  ...options,
+  branches: ["master"],
+};
+export const production: Options = {
+  ...options,
+  branches: ["production"],
+};
