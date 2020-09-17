@@ -18,6 +18,20 @@ Create a Prettier config file `.prettierrc.cjs` in the project room:
 module.exports = require("@koj/config").prettier;
 ```
 
+### Semantic Release
+
+Create a Semantic Release config file `release.config.js` in the project room:
+
+```js
+module.exports = require("@koj/config").release;
+```
+
+When you want to release:
+
+```bash
+npx semantic-release
+```
+
 ## 📄 License
 
 - Code: [MIT](./LICENSE) © [Koj](https://koj.co)
