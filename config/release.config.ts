@@ -1,5 +1,14 @@
 import { Options } from "semantic-release";
 import { readFileSync } from "fs";
+import dateFormat from "dateformat";
+import { join } from "path";
+
+const template = readFileSync(
+  join(__dirname, "helpers", "default-template.hbs")
+).toString();
+const commitTemplate = readFileSync(
+  join(__dirname, "helpers", "commit-template.hbs")
+).toString();
 
 const options: Options = {
   branches: ["production"],
@@ -22,9 +31,8 @@ const options: Options = {
           template,
           partials: { commitTemplate },
           helpers: {
-            datetime: function (format = "UTC:yyyy-mm-dd") {
-              return dateFormat(new Date(), format);
-            },
+            datetime: (format = "UTC:yyyy-mm-dd") =>
+              dateFormat(new Date(), format),
           },
           issueResolution: {
             template: "{baseUrl}/{owner}/{repo}/issues/{ref}",
