@@ -1,1 +1,1 @@
-module.exports = require("./dist").release;
+module.exports = require("./dist").releaseMaster;
