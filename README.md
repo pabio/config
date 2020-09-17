@@ -1,19 +1,21 @@
-# 💄 `prettierrc`
+# Koj config files
 
-This repository contains the common configuration for the [Prettier](https://github.com/prettier/prettier) code formatter.
+This repository contains the common configuration files for Koj projects.
 
 ## 💻 Usage
 
-Install the package as a dev dependency from [npm](https://www.npmjs.com/package/@koj-co/prettierrc):
+Install the package as a dev dependency from [npm](https://www.npmjs.com/package/@koj/config):
 
 ```bash
-npm install --save-dev @koj-co/prettierrc
+npm install --save-dev @koj/config
 ```
+
+### Prettier
 
 Create a Prettier config file `.prettierrc.cjs` in the project room:
 
 ```js
-module.exports = require("@koj-co/prettierrc");
+module.exports = require("@koj/config").prettier;
 ```
 
 ## 📄 License
