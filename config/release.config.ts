@@ -51,8 +51,17 @@ const options: Options = {
     "@semantic-release/github",
     "@semantic-release/npm",
     [
+      "@semantic-release/changelog",
+      {
+        changelogFile: "docs/CHANGELOG.md",
+      },
+    ],
+    [
       "@semantic-release/git",
-      { message: ":bookmark: Release v${nextRelease.version} [skip ci]" },
+      {
+        assets: ["docs/CHANGELOG.md"],
+        message: ":bookmark: Release v${nextRelease.version} [skip ci]",
+      },
     ],
   ],
 };
