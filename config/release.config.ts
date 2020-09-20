@@ -59,7 +59,7 @@ const options: Options = {
     [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md"],
+        assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
         message: ":bookmark: Release v${nextRelease.version} [skip ci]",
       },
     ],
