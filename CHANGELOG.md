@@ -1,3 +1,8 @@
+# [v1.2.3](https://github.com/koj-co/prettierrc/compare/v1.2.2...v1.2.3) (2020-09-21)
+
+## ♻️ Updates
+- [`e1ccebd`](https://github.com/koj-co/prettierrc/commit/e1ccebd)  Make npm token optional
+
 # [v1.2.2](https://github.com/koj-co/prettierrc/compare/v1.2.1...v1.2.2) (2020-09-20)
 
 ## 🐛 Bug fixes
