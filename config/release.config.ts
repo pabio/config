@@ -49,7 +49,6 @@ const options: Options = {
       },
     ],
     "@semantic-release/github",
-    "@semantic-release/npm",
     [
       "@semantic-release/changelog",
       {
@@ -65,6 +64,10 @@ const options: Options = {
     ],
   ],
 };
+
+if (process.env.NPM_TOKEN) {
+  options.plugins = options.plugins?.concat("@semantic-release/npm");
+}
 
 export const master: Options = {
   ...options,
