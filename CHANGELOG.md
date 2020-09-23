@@ -1,3 +1,9 @@
+# [v1.2.4](https://github.com/koj-co/prettierrc/compare/v1.2.3...v1.2.4) (2020-09-23)
+
+## ♻️ Updates
+
+- [`910bae4`](https://github.com/koj-co/prettierrc/commit/910bae4)  Remove newline in #each block
+
 # [v1.2.3](https://github.com/koj-co/prettierrc/compare/v1.2.2...v1.2.3) (2020-09-21)
 
 ## ♻️ Updates
