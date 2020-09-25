@@ -1,7 +1,7 @@
 import { Options } from "prettier";
 
 const options: Options = {
-  printWidth: 120,
+  printWidth: 100,
 };
 
 export default options;
