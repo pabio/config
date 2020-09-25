@@ -56,6 +56,12 @@ const options: Options = {
       },
     ],
     [
+      "@semantic-release/npm",
+      {
+        npmPublish: !!process.env.NPM_TOKEN,
+      },
+    ],
+    [
       "@semantic-release/git",
       {
         assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
@@ -64,10 +70,6 @@ const options: Options = {
     ],
   ],
 };
-
-if (process.env.NPM_TOKEN) {
-  options.plugins = options.plugins?.concat("@semantic-release/npm");
-}
 
 export const master: Options = {
   ...options,
