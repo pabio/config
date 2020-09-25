@@ -1,3 +1,13 @@
+# [v1.2.5](https://github.com/koj-co/prettierrc/compare/v1.2.4...v1.2.5) (2020-09-25)
+
+## ♻️ Updates
+
+- [`fb30f11`](https://github.com/koj-co/prettierrc/commit/fb30f11)  Change print width to 100
+
+## 🐛 Bug fixes
+
+- [`0f555c3`](https://github.com/koj-co/prettierrc/commit/0f555c3)  Don&#x27;t publish if token is available
+
 # [v1.2.4](https://github.com/koj-co/prettierrc/compare/v1.2.3...v1.2.4) (2020-09-23)
 
 ## ♻️ Updates
