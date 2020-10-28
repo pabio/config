@@ -1,48 +1,48 @@
 {{#if compareUrl}}
-# [v{{nextRelease.version}}]({{compareUrl}}) ({{datetime "UTC:yyyy-mm-dd"}})
+## [v{{nextRelease.version}}]({{compareUrl}}) ({{datetime "UTC:yyyy-mm-dd"}})
 {{else}}
-# v{{nextRelease.version}} ({{datetime "UTC:yyyy-mm-dd"}})
+## v{{nextRelease.version}} ({{datetime "UTC:yyyy-mm-dd"}})
 {{/if}}
 
 {{#with commits}}
 {{#if sparkles}}
-## ✨ New features
+### ✨ New features
 
 {{#each sparkles}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if recycle}}
-## ♻️ Updates
+### ♻️ Updates
 
 {{#each recycle}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if lipstick}}
-## 💄 Interface changes
+### 💄 Interface changes
 
 {{#each lipstick}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if bug}}
-## 🐛 Bug fixes
+### 🐛 Bug fixes
 
 {{#each bug}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if ambulance}}
-## 🚑 Critical hotfixes
+### 🚑 Critical hotfixes
 
 {{#each ambulance}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if lock}}
-## 🔒 Security issues
+### 🔒 Security issues
 
 {{#each lock}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
 {{#if boom}}
-## 💥 Breaking changes
+### 💥 Breaking changes
 
 {{#each boom}}- {{> commitTemplate}}{{/each}}
 {{/if}}
