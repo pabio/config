@@ -1,3 +1,9 @@
+## [v1.2.6](https://github.com/koj-co/prettierrc/compare/v1.2.5...v1.2.6) (2020-10-28)
+
+### ♻️ Updates
+
+- [`b56bf02`](https://github.com/koj-co/prettierrc/commit/b56bf02)  Use H2 instead of H1 in release notes
+
 # [v1.2.5](https://github.com/koj-co/prettierrc/compare/v1.2.4...v1.2.5) (2020-09-25)
 
 ## ♻️ Updates

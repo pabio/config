@@ -1,6 +1,6 @@
 {
   "name": "@koj/config",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Configuration for Prettier",
   "files": [
     "dist"
