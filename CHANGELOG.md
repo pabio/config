@@ -1,3 +1,9 @@
+## [v1.2.7](https://github.com/koj-co/prettierrc/compare/v1.2.6...v1.2.7) (2020-10-29)
+
+### ♻️ Updates
+
+- [`dc8feef`](https://github.com/koj-co/prettierrc/commit/dc8feef)  Add dependency updates to CHANGELOG template
+
 ## [v1.2.6](https://github.com/koj-co/prettierrc/compare/v1.2.5...v1.2.6) (2020-10-28)
 
 ### ♻️ Updates
