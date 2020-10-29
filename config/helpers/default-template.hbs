@@ -41,6 +41,12 @@
 {{#each lock}}- {{> commitTemplate}}{{/each}}
 {{/if}}
 
+{{#if arrow_up}}
+### ⬆️ Dependency updates
+
+{{#each arrow_up}}- {{> commitTemplate}}{{/each}}
+{{/if}}
+
 {{#if boom}}
 ### 💥 Breaking changes
 
