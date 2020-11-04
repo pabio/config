@@ -30,6 +30,7 @@ const options: Options = {
               ":recycle:",
               ":lipstick:",
               ":alien:",
+              ":rocket:",
             ],
           },
         },
