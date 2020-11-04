@@ -1,3 +1,9 @@
+## [v1.2.8](https://github.com/koj-co/prettierrc/compare/v1.2.7...v1.2.8) (2020-11-04)
+
+### ♻️ Updates
+
+- [`e63219f`](https://github.com/koj-co/prettierrc/commit/e63219f)  Add &quot;rocket&quot; (deploy) as patch to trigger semantic release
+
 ## [v1.2.7](https://github.com/koj-co/prettierrc/compare/v1.2.6...v1.2.7) (2020-10-29)
 
 ### ♻️ Updates
