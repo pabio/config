@@ -1,3 +1,9 @@
+## [v1.2.9](https://github.com/koj-co/prettierrc/compare/v1.2.8...v1.2.9) (2020-11-17)
+
+### ♻️ Updates
+
+- [`60ceb37`](https://github.com/koj-co/prettierrc/commit/60ceb37)  Use package instead of rocket for patch release
+
 ## [v1.2.8](https://github.com/koj-co/prettierrc/compare/v1.2.7...v1.2.8) (2020-11-04)
 
 ### ♻️ Updates
