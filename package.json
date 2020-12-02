@@ -1,7 +1,7 @@
 {
   "name": "@koj/config",
   "version": "1.2.10",
-  "description": "Configuration for Prettier",
+  "description": "Common configuration files for Koj projects",
   "files": [
     "dist"
   ],
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koj-co/prettierrc.git"
+    "url": "git+https://github.com/koj-co/config.git"
   },
   "keywords": [
     "MIT"
@@ -22,9 +22,9 @@
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koj-co/prettierrc/issues"
+    "url": "https://github.com/koj-co/config/issues"
   },
-  "homepage": "https://github.com/koj-co/prettierrc#readme",
+  "homepage": "https://github.com/koj-co/config#readme",
   "devDependencies": {
     "@types/dateformat": "^3.0.1",
     "@types/prettier": "^2.1.1",
