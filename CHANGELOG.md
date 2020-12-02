@@ -1,3 +1,14 @@
+## v1.2.10 (2020-12-02)
+
+[📝 Release notes](https://github.com/koj-co/prettierrc/releases/tag/v1.2.10) ·
+[💻 Compare](https://github.com/koj-co/prettierrc/compare/v1.2.9...v1.2.10) · [🔖 Tag](https://github.com/koj-co/prettierrc/tree/v1.2.10) ·
+🗄️ Archive ([zip](https://github.com/koj-co/prettierrc/archive/v1.2.10.zip) ·
+[tar.gz](https://github.com/koj-co/prettierrc/archive/v1.2.10.tar.gz))
+
+### ♻️ Updates
+
+- [`e3ea72f`](https://github.com/koj-co/prettierrc/commit/e3ea72f)  Add links to release info
+
 ## [v1.2.9](https://github.com/koj-co/prettierrc/compare/v1.2.8...v1.2.9) (2020-11-17)
 
 ### ♻️ Updates
