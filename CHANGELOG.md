@@ -1,3 +1,11 @@
+## v1.2.11 (2020-12-02)
+
+[📝 Release notes](https://github.com/koj-co/config/releases/tag/v1.2.11) · [💻 Compare](https://github.com/koj-co/config/compare/v1.2.10...v1.2.11) · [🔖 Tag](https://github.com/koj-co/config/tree/v1.2.11) · 🗄️ Archive ([zip](https://github.com/koj-co/config/archive/v1.2.11.zip) · [tar.gz](https://github.com/koj-co/config/archive/v1.2.11.tar.gz))
+
+### 🐛 Bug fixes
+
+- [`8cf17e7`](https://github.com/koj-co/config/commit/8cf17e7)  Add all release detail links to single line
+
 ## v1.2.10 (2020-12-02)
 
 [📝 Release notes](https://github.com/koj-co/prettierrc/releases/tag/v1.2.10) ·
