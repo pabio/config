@@ -1,8 +1,9 @@
-{{#if compareUrl}}
-## [v{{nextRelease.version}}]({{compareUrl}}) ({{datetime "UTC:yyyy-mm-dd"}})
-{{else}}
 ## v{{nextRelease.version}} ({{datetime "UTC:yyyy-mm-dd"}})
-{{/if}}
+
+[📝 Release notes](https://github.com/{{owner}}/{{repo}}/releases/tag/v{{nextRelease.version}}){{#if compareUrl}} ·
+[💻 Compare]({{compareUrl}}){{/if}} · [🔖 Tag](https://github.com/{{owner}}/{{repo}}/tree/v{{nextRelease.version}}) ·
+🗄️ Archive ([zip](https://github.com/{{owner}}/{{repo}}/archive/v{{nextRelease.version}}.zip) ·
+[tar.gz](https://github.com/{{owner}}/{{repo}}/archive/v{{nextRelease.version}}.tar.gz))
 
 {{#with commits}}
 {{#if sparkles}}
